@@ -1,0 +1,12 @@
+.Index {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: green;
+    height:50em;
+    width:65%;
+}
+.colLeft .colRight{
+    display:flex;
+    flex-direction:column;
+}
