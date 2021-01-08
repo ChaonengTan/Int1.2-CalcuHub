@@ -1,12 +1,14 @@
 import "./Index.css"
+
 function Index() {
   return (
     <div className="Index">
       <div className='colLeft'>
-          this is colLeft
+          <p>something</p>
+          <p>something</p>
       </div>
       <div className='colRight'>
-          this is colRight
+          this is colR-ight
       </div>
     </div>
   )

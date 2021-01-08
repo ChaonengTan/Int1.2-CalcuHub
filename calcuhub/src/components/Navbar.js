@@ -25,6 +25,7 @@ function Navbar() {
     </div>
   )
 }
+// DarkMode Func
 function toggleDarkMode() {
     var element = document.body;
     element.classList.toggle("dark-mode");

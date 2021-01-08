@@ -31,6 +31,12 @@
     align-items: center;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 /* Everything below here is for the night mode switch */
 .dark-mode {
     background-color: rgb(25, 25, 25);
