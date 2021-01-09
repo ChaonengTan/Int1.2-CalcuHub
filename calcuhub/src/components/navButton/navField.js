@@ -1,19 +1,20 @@
 import React from 'react';
-import navButton from './navButton';
+import NavButton from './navButton';
 import './navList.css';
-import data from '../links-data.json'
+import data from './links-data.json'
 
 function navList() {
 
     const spaces = data.map(({ title }, i) => {
         return (
-          <navButton
+          <NavButton
             id={i}
             name={title}
           />
         )
       })
-  
+      console.log("created spaces")
+
     return (
       <div className="navList">
         { spaces }

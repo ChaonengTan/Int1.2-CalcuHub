@@ -1,8 +1,7 @@
 import './App.css';
 import { HashRouter as Router, Route } from 'react-router-dom'
 import Navbar from "./Navbar"
-import Index from './Index'
-import navList from './navButton/navField';
+import navField from './navButton/navField';
 
 function App() {
   return (

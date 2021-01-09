@@ -7,8 +7,8 @@ function navButton(props) {
   return (
     <div className='button'>
       <Link to={`/calculators/${id}`}>
-        {name}
-        </Link>
+        <h1 className='text'>{name}</h1>
+      </Link>
     </div>
   )
 }
