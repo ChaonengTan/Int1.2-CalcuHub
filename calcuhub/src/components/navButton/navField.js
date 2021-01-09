@@ -1,6 +1,6 @@
 import React from 'react';
 import NavButton from './navButton';
-import './navList.css';
+import './navField.css';
 import data from './links-data.json'
 
 function navList() {
@@ -13,10 +13,9 @@ function navList() {
           />
         )
       })
-      console.log("created spaces")
 
     return (
-      <div className="navList">
+      <div className="navField">
         { spaces }
       </div>
     )
