@@ -1,6 +1,6 @@
 import { Component } from 'react'
-import './PyTCalculator.css'
-class PyTCalculator extends Component{
+import './quadFCalculator.css'
+class quadFCalculator extends Component{
     constructor (props){
         super(props)
         this.state={
@@ -14,7 +14,15 @@ class PyTCalculator extends Component{
         return(
             <form className='form'>
                 <div className='center'>
-                    <h1>Pythagorean Theorum: A&sup2;+B&sup2;=C&sup2;</h1>
+                    <div className='title'>
+                        <h1>Quadratic Formula: </h1>
+                        <div className='equation'>
+                            <h1 className='topEquation'>-b&#177;&#8730;(b&sup2;-4ac)</h1>
+                            <h1>2a</h1>
+                        </div>
+                        
+                    </div>
+
                     <div className='sentence'>
                         <div className='letter'>
                             <div className='upper'>
@@ -25,7 +33,7 @@ class PyTCalculator extends Component{
                                     type = 'number'
                                     value = {this.state.valA}
                                     onChange = {(e) => {this.setState({valA: e.target.value})}}
-                                />&sup2;
+                                />^2
                             </div>
                             <button onClick={(e) => {this.calculateA()}}>Calculate A</button>
                         </div>
@@ -39,7 +47,7 @@ class PyTCalculator extends Component{
                                     type = 'number'
                                     value = {this.state.valB}
                                     onChange = {(e) => {this.setState({valB: e.target.value})}}
-                                />&sup2;
+                                />^2
                             </div>
                             <button onClick={(e) => {this.calculateB()}}>Calculate B</button>
                         </div>
@@ -53,7 +61,7 @@ class PyTCalculator extends Component{
                                     type = 'number'
                                     value = {this.state.valC}
                                     onChange = {(e) => {this.setState({valC: e.target.value})}}
-                                />&sup2;
+                                />^2
                             </div>
                             <button onClick={(e) => {this.calculateC()}}>Calculate C</button>
                         </div>
@@ -72,4 +80,4 @@ class PyTCalculator extends Component{
         this.setState({valC: Math.sqrt((this.state.valA**2)+(this.state.valB**2))})
     }
 }
-export default PyTCalculator
+export default quadFCalculator

@@ -1,0 +1,12 @@
+.title {
+    display: flex;
+    flex-direction: row;
+}
+.equation > h1 {
+    width: 7em;
+    margin: 0px;
+    text-align: center;
+}
+.topEquation {
+    border-bottom: 2px solid;
+}

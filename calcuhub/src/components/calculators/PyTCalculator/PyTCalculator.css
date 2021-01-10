@@ -1,0 +1,23 @@
+input {
+    width: 5em;
+}
+.form, .center, .letter {
+    display: flex;
+    flex-direction: column;
+}
+.form {
+    height: 70vh;
+    justify-content: center;
+}
+.center {
+    align-items: center;
+}
+.sentence {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.letter {
+    align-items: center;
+    padding: 1em;
+}
