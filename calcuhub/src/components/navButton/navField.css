@@ -2,7 +2,8 @@
     width: calc(100% - 80px);
     margin: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 50%);
     grid-gap: 2em;
     margin: 2em;
+    font-size: 1em;
   }
