@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/calcuhub/static/css/main.6c361c64.chunk.css",
+    "main.js": "/calcuhub/static/js/main.c0657c51.chunk.js",
+    "main.js.map": "/calcuhub/static/js/main.c0657c51.chunk.js.map",
+    "runtime-main.js": "/calcuhub/static/js/runtime-main.bc55d8ef.js",
+    "runtime-main.js.map": "/calcuhub/static/js/runtime-main.bc55d8ef.js.map",
+    "static/js/2.8b9dc29c.chunk.js": "/calcuhub/static/js/2.8b9dc29c.chunk.js",
+    "static/js/2.8b9dc29c.chunk.js.map": "/calcuhub/static/js/2.8b9dc29c.chunk.js.map",
+    "static/js/3.d2ce7b2a.chunk.js": "/calcuhub/static/js/3.d2ce7b2a.chunk.js",
+    "static/js/3.d2ce7b2a.chunk.js.map": "/calcuhub/static/js/3.d2ce7b2a.chunk.js.map",
+    "index.html": "/calcuhub/index.html",
+    "static/css/main.6c361c64.chunk.css.map": "/calcuhub/static/css/main.6c361c64.chunk.css.map",
+    "static/js/2.8b9dc29c.chunk.js.LICENSE.txt": "/calcuhub/static/js/2.8b9dc29c.chunk.js.LICENSE.txt",
+    "static/media/githubIcon.3d3ed4b3.png": "/calcuhub/static/media/githubIcon.3d3ed4b3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bc55d8ef.js",
+    "static/js/2.8b9dc29c.chunk.js",
+    "static/css/main.6c361c64.chunk.css",
+    "static/js/main.c0657c51.chunk.js"
+  ]
+}
