@@ -6,8 +6,7 @@ class PyTCalculator extends Component{
         this.state={
             valA: 0,
             valB: 0, 
-            valC: 0,
-            output: 0
+            valC: 0
         }
     }
     render (){

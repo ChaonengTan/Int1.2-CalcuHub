@@ -10,3 +10,11 @@
 .topEquation {
     border-bottom: 2px solid;
 }
+input {
+    width: 3em;
+}
+.fillout > h1 {
+    width: 11em;
+    margin: 0px;
+    text-align: center;
+}

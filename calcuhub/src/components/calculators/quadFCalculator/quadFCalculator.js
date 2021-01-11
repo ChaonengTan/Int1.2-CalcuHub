@@ -4,10 +4,9 @@ class quadFCalculator extends Component{
     constructor (props){
         super(props)
         this.state={
-            valA: 0,
-            valB: 0, 
-            valC: 0,
-            output: 0
+            valA: null,
+            valB: null, 
+            valC: null
         }
     }
     render (){
@@ -24,60 +23,50 @@ class quadFCalculator extends Component{
                     </div>
 
                     <div className='sentence'>
-                        <div className='letter'>
-                            <div className='upper'>
-                                <label for="ValA">ValA: </label>
-                                <input
-                                    id='ValA'
-                                    placeholder = 'ValA'
-                                    type = 'number'
-                                    value = {this.state.valA}
-                                    onChange = {(e) => {this.setState({valA: e.target.value})}}
-                                />^2
-                            </div>
-                            <button onClick={(e) => {this.calculateA()}}>Calculate A</button>
-                        </div>
-                        +
-                        <div className='letter'>
-                            <div className='upper'>
-                                <label for="ValB">ValB: </label>
-                                <input
-                                    id='ValB'
-                                    placeholder = 'ValB'
+                        <div className='fillout'>
+                            <h1 className='topEquation'>
+                                -<input
+                                    placeholder = 'b'
                                     type = 'number'
                                     value = {this.state.valB}
                                     onChange = {(e) => {this.setState({valB: e.target.value})}}
-                                />^2
-                            </div>
-                            <button onClick={(e) => {this.calculateB()}}>Calculate B</button>
-                        </div>
-                        =
-                        <div className='letter'>
-                            <div className='upper'>
-                                <label for="ValC">ValC: </label>
+                                />
+                                &#177;&#8730;(<input
+                                    placeholder = 'b'
+                                    type = 'number'
+                                    value = {this.state.valB}
+                                    onChange = {(e) => {this.setState({valB: e.target.value})}}
+                                />&sup2;
+                                -4<input
+                                    placeholder = 'a'
+                                    type = 'number'
+                                    value = {this.state.valA}
+                                    onChange = {(e) => {this.setState({valA: e.target.value})}}
+                                />
                                 <input
-                                    id='ValC'
-                                    placeholder = 'ValC'
+                                    placeholder = 'c'
                                     type = 'number'
                                     value = {this.state.valC}
                                     onChange = {(e) => {this.setState({valC: e.target.value})}}
-                                />^2
-                            </div>
-                            <button onClick={(e) => {this.calculateC()}}>Calculate C</button>
+                                />)
+                            </h1>
+                            <h1>2<input
+                                    placeholder = 'a'
+                                    type = 'number'
+                                    value = {this.state.valA}
+                                    onChange = {(e) => {this.setState({valA: e.target.value})}}
+                                /></h1>
                         </div>
                     </div>
+
+                    <div>
+                        <h1>Plus Output: {(-this.state.valB+Math.sqrt(this.state.valB**2-(4*this.state.valA*this.state.valC)))/(2*this.state.valA)}</h1>
+                        <h1>Minus Output: {(-this.state.valB-Math.sqrt(this.state.valB**2-(4*this.state.valA*this.state.valC)))/(2*this.state.valA)}</h1>
+                    </div>
+
                 </div>
             </form>
         )
-    }
-    calculateA() {
-        this.setState({valA: Math.sqrt((this.state.valC**2)-(this.state.valB**2))})
-    }
-    calculateB() {
-        this.setState({valB: Math.sqrt((this.state.valC**2)-(this.state.valA**2))})
-    }
-    calculateC() {
-        this.setState({valC: Math.sqrt((this.state.valA**2)+(this.state.valB**2))})
     }
 }
 export default quadFCalculator
