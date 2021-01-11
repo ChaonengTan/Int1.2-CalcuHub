@@ -13,18 +13,18 @@ class quadFCalculator extends Component{
         return(
             <form className='form'>
                 <div className='center'>
-                    <div className='title'>
+                    <div className='qftitle'>
                         <h1>Quadratic Formula: </h1>
-                        <div className='equation'>
-                            <h1 className='topEquation'>-b&#177;&#8730;(b&sup2;-4ac)</h1>
+                        <div className='qfequation'>
+                            <h1 className='qftopEquation'>-b&#177;&#8730;(b&sup2;-4ac)</h1>
                             <h1>2a</h1>
                         </div>
                         
                     </div>
 
-                    <div className='sentence'>
-                        <div className='fillout'>
-                            <h1 className='topEquation'>
+                    <div>
+                        <div className='qffillout'>
+                            <h1 className='qftopEquation'>
                                 -<input
                                     placeholder = 'b'
                                     type = 'number'
@@ -63,7 +63,7 @@ class quadFCalculator extends Component{
                         <h1>Plus Output: {(-this.state.valB+Math.sqrt(this.state.valB**2-(4*this.state.valA*this.state.valC)))/(2*this.state.valA)}</h1>
                         <h1>Minus Output: {(-this.state.valB-Math.sqrt(this.state.valB**2-(4*this.state.valA*this.state.valC)))/(2*this.state.valA)}</h1>
                     </div>
-
+                    
                 </div>
             </form>
         )

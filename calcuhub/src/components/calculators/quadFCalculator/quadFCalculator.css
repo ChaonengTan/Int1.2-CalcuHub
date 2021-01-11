@@ -1,19 +1,21 @@
-.title {
+.qftitle {
     display: flex;
     flex-direction: row;
 }
-.equation > h1 {
+.qfequation > h1 {
+    display: flex;
+    flex-direction: column;
     width: 7em;
     margin: 0px;
     text-align: center;
 }
-.topEquation {
+.qftopEquation {
     border-bottom: 2px solid;
 }
 input {
     width: 3em;
 }
-.fillout > h1 {
+.qffillout > h1 {
     width: 11em;
     margin: 0px;
     text-align: center;

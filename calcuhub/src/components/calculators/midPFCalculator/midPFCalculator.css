@@ -1,0 +1,30 @@
+.mpftitle {
+    display: flex;
+    flex-direction: row;
+}
+.mpfequation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.ePart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.topEquation {
+    border-bottom: 2px solid;
+}
+input {
+    width: 3em;
+}
+.mpffillout > h1 {
+    width: 16em;
+    margin: 0px;
+    text-align: center;
+}
+.mpfsentence {
+    display: flex;
+    flex-direction: column;
+}
