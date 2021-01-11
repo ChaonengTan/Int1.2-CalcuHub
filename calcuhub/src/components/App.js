@@ -1,7 +1,7 @@
 import './App.css';
 import { HashRouter as Router, Route } from 'react-router-dom'
 import Navbar from "./Navbar"
-import navField from './navButton/navField';
+import navField from './navField/navField';
 import tipCalculator from './calculators/TipCalculator/TipCalculator'
 import pyTCalculator from './calculators/PyTCalculator/PyTCalculator'
 import quadFCalculator from './calculators/quadFCalculator/quadFCalculator'
