@@ -1,4 +1,13 @@
+A simple to use, rapid expandable, mobile friendly app for mathmatical formulas and certain calculations.
 
+How to use:
+
+Just select the formula/calculator you wish to use, fill out the blanks, and walla~
+You now have the answer you need to your problem.
+*Bonus: Night Mode
+
+Any positive expansions are welcome, just hit me up!
+For any edits please read below.
 
 # Getting Started with Create React App
 
